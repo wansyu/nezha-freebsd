@@ -1,2 +1,2 @@
-# alist-freebsd
-Automatically build alist (FreeBSD version)
+# nezha-freebsd
+Automatically build nezha (FreeBSD version)
