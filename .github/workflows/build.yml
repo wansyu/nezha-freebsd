@@ -27,7 +27,7 @@ jobs:
       with:
         name: nezha-freebsd
         path: |
-          nezha/nezha
+          nezha/cmd/dashboard/dashboard
 
     - name: Generate release tag
       id: tag
@@ -40,7 +40,7 @@ jobs:
       with:
         tag_name: ${{ steps.tag.outputs.release_tag }}
         files: |
-          nezha/nezha
+          nezha/cmd/dashboard/dashboard
               
     - name: Delete workflow runs
       uses: Mattraks/delete-workflow-runs@v2
